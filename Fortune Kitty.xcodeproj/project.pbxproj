@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2A644DBA2C89232300EB9A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A644DA12C89232100EB9A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A644DA82C89232100EB9A3E;
+			remoteInfo = "Fortune Kitty";
+		};
+		2A644DC42C89232300EB9A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A644DA12C89232100EB9A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A644DA82C89232100EB9A3E;
+			remoteInfo = "Fortune Kitty";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A644DA92C89232100EB9A3E /* Fortune Kitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune Kitty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A644DB92C89232300EB9A3E /* Fortune KittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune KittyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A644DC32C89232300EB9A3E /* Fortune KittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune KittyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2A644DAB2C89232100EB9A3E /* Fortune Kitty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fortune Kitty";
+			sourceTree = "<group>";
+		};
+		2A644DBC2C89232300EB9A3E /* Fortune KittyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fortune KittyTests";
+			sourceTree = "<group>";
+		};
+		2A644DC62C89232300EB9A3E /* Fortune KittyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fortune KittyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A644DA62C89232100EB9A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A644DB62C89232300EB9A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A644DC02C89232300EB9A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A644DA02C89232100EB9A3E = {
+			isa = PBXGroup;
+			children = (
+				2A644DAB2C89232100EB9A3E /* Fortune Kitty */,
+				2A644DBC2C89232300EB9A3E /* Fortune KittyTests */,
+				2A644DC62C89232300EB9A3E /* Fortune KittyUITests */,
+				2A644DAA2C89232100EB9A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A644DAA2C89232100EB9A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A644DA92C89232100EB9A3E /* Fortune Kitty.app */,
+				2A644DB92C89232300EB9A3E /* Fortune KittyTests.xctest */,
+				2A644DC32C89232300EB9A3E /* Fortune KittyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A644DA82C89232100EB9A3E /* Fortune Kitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A644DCD2C89232300EB9A3E /* Build configuration list for PBXNativeTarget "Fortune Kitty" */;
+			buildPhases = (
+				2A644DA52C89232100EB9A3E /* Sources */,
+				2A644DA62C89232100EB9A3E /* Frameworks */,
+				2A644DA72C89232100EB9A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A644DAB2C89232100EB9A3E /* Fortune Kitty */,
+			);
+			name = "Fortune Kitty";
+			packageProductDependencies = (
+			);
+			productName = "Fortune Kitty";
+			productReference = 2A644DA92C89232100EB9A3E /* Fortune Kitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A644DB82C89232300EB9A3E /* Fortune KittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A644DD02C89232300EB9A3E /* Build configuration list for PBXNativeTarget "Fortune KittyTests" */;
+			buildPhases = (
+				2A644DB52C89232300EB9A3E /* Sources */,
+				2A644DB62C89232300EB9A3E /* Frameworks */,
+				2A644DB72C89232300EB9A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A644DBB2C89232300EB9A3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2A644DBC2C89232300EB9A3E /* Fortune KittyTests */,
+			);
+			name = "Fortune KittyTests";
+			packageProductDependencies = (
+			);
+			productName = "Fortune KittyTests";
+			productReference = 2A644DB92C89232300EB9A3E /* Fortune KittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A644DC22C89232300EB9A3E /* Fortune KittyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A644DD32C89232300EB9A3E /* Build configuration list for PBXNativeTarget "Fortune KittyUITests" */;
+			buildPhases = (
+				2A644DBF2C89232300EB9A3E /* Sources */,
+				2A644DC02C89232300EB9A3E /* Frameworks */,
+				2A644DC12C89232300EB9A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A644DC52C89232300EB9A3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2A644DC62C89232300EB9A3E /* Fortune KittyUITests */,
+			);
+			name = "Fortune KittyUITests";
+			packageProductDependencies = (
+			);
+			productName = "Fortune KittyUITests";
+			productReference = 2A644DC32C89232300EB9A3E /* Fortune KittyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A644DA12C89232100EB9A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2A644DA82C89232100EB9A3E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2A644DB82C89232300EB9A3E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2A644DA82C89232100EB9A3E;
+					};
+					2A644DC22C89232300EB9A3E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2A644DA82C89232100EB9A3E;
+					};
+				};
+			};
+			buildConfigurationList = 2A644DA42C89232100EB9A3E /* Build configuration list for PBXProject "Fortune Kitty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A644DA02C89232100EB9A3E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2A644DAA2C89232100EB9A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A644DA82C89232100EB9A3E /* Fortune Kitty */,
+				2A644DB82C89232300EB9A3E /* Fortune KittyTests */,
+				2A644DC22C89232300EB9A3E /* Fortune KittyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A644DA72C89232100EB9A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A644DB72C89232300EB9A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A644DC12C89232300EB9A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A644DA52C89232100EB9A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A644DB52C89232300EB9A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A644DBF2C89232300EB9A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A644DBB2C89232300EB9A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A644DA82C89232100EB9A3E /* Fortune Kitty */;
+			targetProxy = 2A644DBA2C89232300EB9A3E /* PBXContainerItemProxy */;
+		};
+		2A644DC52C89232300EB9A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A644DA82C89232100EB9A3E /* Fortune Kitty */;
+			targetProxy = 2A644DC42C89232300EB9A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A644DCB2C89232300EB9A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A644DCC2C89232300EB9A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A644DCE2C89232300EB9A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fortune Kitty/Preview Content\"";
+				DEVELOPMENT_TEAM = 6S2YJ6XBRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistrrrmedia.Fortune-Kitty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A644DCF2C89232300EB9A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fortune Kitty/Preview Content\"";
+				DEVELOPMENT_TEAM = 6S2YJ6XBRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistrrrmedia.Fortune-Kitty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A644DD12C89232300EB9A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S2YJ6XBRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistrrrmedia.Fortune-KittyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Kitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fortune Kitty";
+			};
+			name = Debug;
+		};
+		2A644DD22C89232300EB9A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S2YJ6XBRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistrrrmedia.Fortune-KittyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Kitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fortune Kitty";
+			};
+			name = Release;
+		};
+		2A644DD42C89232300EB9A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S2YJ6XBRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistrrrmedia.Fortune-KittyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortune Kitty";
+			};
+			name = Debug;
+		};
+		2A644DD52C89232300EB9A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S2YJ6XBRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistrrrmedia.Fortune-KittyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortune Kitty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A644DA42C89232100EB9A3E /* Build configuration list for PBXProject "Fortune Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A644DCB2C89232300EB9A3E /* Debug */,
+				2A644DCC2C89232300EB9A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A644DCD2C89232300EB9A3E /* Build configuration list for PBXNativeTarget "Fortune Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A644DCE2C89232300EB9A3E /* Debug */,
+				2A644DCF2C89232300EB9A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A644DD02C89232300EB9A3E /* Build configuration list for PBXNativeTarget "Fortune KittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A644DD12C89232300EB9A3E /* Debug */,
+				2A644DD22C89232300EB9A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A644DD32C89232300EB9A3E /* Build configuration list for PBXNativeTarget "Fortune KittyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A644DD42C89232300EB9A3E /* Debug */,
+				2A644DD52C89232300EB9A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A644DA12C89232100EB9A3E /* Project object */;
+}
