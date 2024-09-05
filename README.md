@@ -15,7 +15,7 @@ Fortune Kitty generates random, fortune cookie-style quotes using the OpenAI API
 
 1. Clone repository.
 2. `cd fortune-kitty`
-3. Modify `config.json` so it contains your API keys for the OpenAI and Cat APIs.
+3. Modify `Fortune Kitty/Resources/config.json` so it contains your API keys for the OpenAI and Cat APIs.
 3. Double-click on `fortune-kitty.xcodeproj`
 4. Select a target device/simulator and run. 
 
