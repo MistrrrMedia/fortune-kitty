@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2A644DF32C89379B00EB9A3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2A644DF22C89379B00EB9A3E /* .gitignore */; };
+		2A644DF52C893C2500EB9A3E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2A644DF42C893C2500EB9A3E /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2A644DBA2C89232300EB9A3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		2A644DA92C89232100EB9A3E /* Fortune Kitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune Kitty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A644DB92C89232300EB9A3E /* Fortune KittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune KittyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A644DC32C89232300EB9A3E /* Fortune KittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune KittyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A644DF22C89379B00EB9A3E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2A644DF42C893C2500EB9A3E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		2A644DA02C89232100EB9A3E = {
 			isa = PBXGroup;
 			children = (
+				2A644DF42C893C2500EB9A3E /* LICENSE */,
+				2A644DF22C89379B00EB9A3E /* .gitignore */,
 				2A644DAB2C89232100EB9A3E /* Fortune Kitty */,
 				2A644DBC2C89232300EB9A3E /* Fortune KittyTests */,
 				2A644DC62C89232300EB9A3E /* Fortune KittyUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A644DF52C893C2500EB9A3E /* LICENSE in Resources */,
+				2A644DF32C89379B00EB9A3E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
