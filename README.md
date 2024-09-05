@@ -11,6 +11,10 @@ Fortune Kitty generates random, fortune cookie-style quotes using the OpenAI API
 
 <img alt = "screenshot" src="https://i.imgur.com/uD7yBVj.png" height = "640"/>
 
+## Xcode Version
+
+I used the new Xcode 16.1 beta to build this app. The target OS is iOS 18.1. This app should be run on a device or simulator with the latest iOS 18.1 beta (or newer).
+
 ## Installation
 
 1. Clone repository.
