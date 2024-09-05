@@ -1,0 +1,11 @@
+{
+    "services" : {
+        "cat_api": {
+            "api_key": "PASTE KEY HERE"
+        },
+        
+        "openAI" : {
+            "api_key": "PASTE KEY HERE"
+        }
+    }
+}
