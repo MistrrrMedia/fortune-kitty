@@ -4,7 +4,7 @@
 
 ## About
 
-Fortune Kitty geneerates random, fortune cookie-style quotes using the OpenAI API. The quotes are based on philosophical and nonsensical themes (see `data.json`). Each quote is accompanied by a picture of a cat fetched from The Cat API.
+Fortune Kitty generates random, fortune cookie-style quotes using the OpenAI API. The quotes are based on philosophical and nonsensical themes (see `data.json`). Each quote is accompanied by a picture of a cat fetched from The Cat API.
 
 - [Cat API](https://thecatapi.com/)
 - [OpenAI API](https://platform.openai.com/)
