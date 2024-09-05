@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A644DF32C89379B00EB9A3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2A644DF22C89379B00EB9A3E /* .gitignore */; };
 		2A644DF52C893C2500EB9A3E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2A644DF42C893C2500EB9A3E /* LICENSE */; };
+		2A644E222C89452300EB9A3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A644E1E2C89452300EB9A3E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,24 +35,8 @@
 		2A644DC32C89232300EB9A3E /* Fortune KittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune KittyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A644DF22C89379B00EB9A3E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2A644DF42C893C2500EB9A3E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2A644E1E2C89452300EB9A3E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2A644DF62C89447800EB9A3E /* Exceptions for "Fortune KittyUITests" folder in "Fortune Kitty" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				README.md,
-			);
-			target = 2A644DA82C89232100EB9A3E /* Fortune Kitty */;
-		};
-		2A644DF72C89447800EB9A3E /* Exceptions for "Fortune KittyUITests" folder in "Fortune KittyUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				README.md,
-			);
-			target = 2A644DC22C89232300EB9A3E /* Fortune KittyUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2A644DAB2C89232100EB9A3E /* Fortune Kitty */ = {
@@ -66,10 +51,6 @@
 		};
 		2A644DC62C89232300EB9A3E /* Fortune KittyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2A644DF62C89447800EB9A3E /* Exceptions for "Fortune KittyUITests" folder in "Fortune Kitty" target */,
-				2A644DF72C89447800EB9A3E /* Exceptions for "Fortune KittyUITests" folder in "Fortune KittyUITests" target */,
-			);
 			path = "Fortune KittyUITests";
 			sourceTree = "<group>";
 		};
@@ -103,6 +84,7 @@
 		2A644DA02C89232100EB9A3E = {
 			isa = PBXGroup;
 			children = (
+				2A644E1E2C89452300EB9A3E /* README.md */,
 				2A644DF42C893C2500EB9A3E /* LICENSE */,
 				2A644DF22C89379B00EB9A3E /* .gitignore */,
 				2A644DAB2C89232100EB9A3E /* Fortune Kitty */,
@@ -242,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A644E222C89452300EB9A3E /* README.md in Resources */,
 				2A644DF52C893C2500EB9A3E /* LICENSE in Resources */,
 				2A644DF32C89379B00EB9A3E /* .gitignore in Resources */,
 			);
